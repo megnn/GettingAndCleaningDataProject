@@ -14,9 +14,9 @@ The sensor signals (accelerometer and gyroscope) were pre-processed by applying 
 
 Check the README.txt file for further details about this dataset. 
 
-A video of the experiment including an example of the 6 recorded activities with one of the participants can be seen in the following (link).[http://www.youtube.com/watch?v=XOEN9W05_4A]
+A video of the experiment including an example of the 6 recorded activities with one of the participants can be seen in the following [link].(http://www.youtube.com/watch?v=XOEN9W05_4A)
 
-An updated version of this dataset can be found (here)[http://archive.ics.uci.edu/ml/datasets/Smartphone-Based+Recognition+of+Human+Activities+and+Postural+Transitions]. It includes labels of postural transitions between activities and also the full raw inertial signals instead of the ones pre-processed into windows.
+An updated version of this dataset can be found [here](http://archive.ics.uci.edu/ml/datasets/Smartphone-Based+Recognition+of+Human+Activities+and+Postural+Transitions). It includes labels of postural transitions between activities and also the full raw inertial signals instead of the ones pre-processed into windows.
 
 
 ##Attribute Information:
@@ -30,5 +30,10 @@ For each record in the dataset it is provided:
 
 
 
-This project includes one R script called run_analysis.R that does the following. 1. Merges the training and the test sets to create one data set. 2. Extracts only the measurements on the mean and standard deviation for each measurement. 3. Uses descriptive activity names to name the activities in the data set 4. Appropriately labels the data set with descriptive activity names. 5. Creates a second, independent tidy data set with the average of each variable for each activity and each subject.
+This project includes one R script called run_analysis.R that does the following. 
+1. Merges the training and the test sets to create one data set. 
+2. Extracts only the measurements on the mean and standard deviation for each measurement. 
+3. Uses descriptive activity names to name the activities in the data set 
+4. Appropriately labels the data set with descriptive activity names. 
+5. Creates a second, independent tidy data set with the average of each variable for each activity and each subject.
 
